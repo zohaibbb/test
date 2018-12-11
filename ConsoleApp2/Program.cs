@@ -10,9 +10,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int a;
+            int i;
             int b;
             int c;
+            for (i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
+
         }
     }
 }
